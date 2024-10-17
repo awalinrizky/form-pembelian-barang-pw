@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 style="text-align:center;">
+    Curiculum Vitae</h1>
+  <hr>
+  <p style="text-align:center;">pemrograman web 1, Pertemuan 2 html dasar<p>
+  <table border="1" cellpadding="9" width="700" align="center">
+    <tr bgcolor=yellow>
+      <th width="50">data diri</th>
+      <th width="100">keterangan</th>
+      <th width="550">IMAGE</th>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Nama</td>
+      <td style="text-align:center;">Awalin Rizky</td>
+      <td rowspan="5"><img src="https://images.unsplash.com/photo-1556792820-2909f41d8e11?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMjk3NzN8&ixlib=rb-4.0.3&q=85" width="550"</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Jenis kelamin</td>
+      <td style="text-align:center;">laki laki</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Agama</td>
+      <td style="text-align:center;">Islam</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Hobi</td>      
+      <td>
+        <li style="text-align:center;">Basket</li>
+        <li style="text-align:center;">renang</li>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Sosial media</td>
+      <td style="text-align:center;">
+        <a href="https://www.instagram.com/nadykhtnaptr/">Instagram</a>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

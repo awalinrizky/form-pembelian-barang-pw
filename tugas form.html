@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+</head>
+<body>
+    <h1>Form Pemesanan Barang</h1>
+    <p>MacBook Air menyelesaikan pekerjaan dan permainan dengan mulus dan chip M3 menghadirkan kemampuan yang lebih hebat ke laptop terpopuler di dunia. Dengan kekuatan baterai hingga 18 jam,1 Anda bisa membawa MacBook Air yang super portabel ke mana saja dan melakukan apa saja dengan cepat</p>
+
+    <form method="POST"  action="http://mackbook.id.com">
+        
+            <img src="3633553.webp" width="300" alt="photo">
+            
+            <br><br>
+            <label for="title">Title Here :</label>
+            <input type="text" placeholder="Macbook Air $800" name="customername" id="customername" required autofocus>
+
+            <br><br>
+            <label for="intructions">Description :</label><br>
+            <textarea name="intructions" id="intructions" placeholder="Year: 2009   Model: Baru   Condition: Mint" maxlength="100" cols="15" rows="3" required></textarea>
+
+            <br><br>
+            <label for="telephone">Account number :</label>
+            <input type="number"  placeholder="1234567890" name="telephone" id="telephone" required>
+
+            <br><br>
+            <label for="Paymenttype">Bank :</label>
+            <select name="bank" id="paymenttype" required>
+                <option value="1">BCA</option>
+                <option value="2">BRI</option>
+                <option value="3">CIMB NIAGA</option>
+            </select>
+
+            <br><br>
+            <label for="title">Account Holder :</label>
+            <input type="text" placeholder="name here" name="title" id="title" required>
+
+            <br><br>
+            <label for="telephone">transcation :</label>
+            <input type="number" name="transcation" id="transcation" required>
+            <h6>*if the transaction is for 3 person, choose 3 from the drop-down list</h6>
+
+        <div class="checkbox-group">
+            <label>
+                <input checked type="checkbox" name="sendMobilePhone" id="sendMobilePhone" required>
+                <span>Send mobile phone notification</span>
+            </label><br>
+            <label>
+                <input checked type="checkbox" name="sendEmail" id="sendEmail" required>
+                <span>Send email notification</span>
+            </label>
+
+            <br><br>
+            <label for="telephone">Send to Mobile Phone :</label>
+            <input type="number" placeholder="6281234567890" name="telephone" id="telephone" required>
+
+            <br><br>
+            <label for="email">Send to Email :</label>
+            <input type="email" placeholder="abcde@gmail.com" name="email" id="email" required>
+            
+            <br><br>
+            <div class="button">
+            <button style="background-color: green; color:white" > Generate Numb Link</button></div>
+        </div>
+
+</body>
+</html>
